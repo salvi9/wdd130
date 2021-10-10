@@ -1,0 +1,57 @@
+body {
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+}
+
+header,
+footer {
+  border: 1px solid #bbbbbb;
+  padding: 0.5rem;
+  background-color: #fff1d0;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  grid-template-columns: 200px 1fr;
+}
+
+a {
+  color: #454b1b;
+}
+
+main {
+  padding: 1rem;
+}
+
+h1 {
+  color: navy;
+  font-size: 2.2rem;
+}
+
+p {
+  color: #086788;
+}
+
+footer {
+  grid-template-columns: 1fr 300px;
+}
+
+/* Class Selectors */
+.page {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+.social {
+  width: 100px;
+  height: auto;
+}
