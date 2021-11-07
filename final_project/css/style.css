@@ -11,3 +11,8 @@ p {
 nav {
   background-color: #7b7d7d;
 }
+
+.images img {
+  width: 350px;
+  height: auto;
+}
