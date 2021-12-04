@@ -1,0 +1,44 @@
+body {
+  background: linear-gradient(to right, #8e9eab, #eef2f3);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: (your choice), sans-serif;
+  letter-spacing: 0.03em;
+}
+
+img {
+  width: 400px;
+  border-radius: 25px 25px 0px 0px;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  padding: 10px;
+}
+
+.card {
+  border: transparent;
+  border-radius: 25px;
+  width: 400px;
+  background-color: white;
+  box-shadow: 10em black;
+}
+
+.heart {
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 250px;
+  left: 1075px;
+  border-radius: 25px;
+  border: transparent;
+  background-color: red;
+}
+
+.heart:hover {
+}
