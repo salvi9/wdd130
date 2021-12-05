@@ -16,6 +16,10 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  text-align: center;
+}
+
 .page {
   max-width: 960px;
   margin: 0 auto;
