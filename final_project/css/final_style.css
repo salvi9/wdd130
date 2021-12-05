@@ -1,9 +1,19 @@
 body {
   font-size: 20px;
-  background-color: #daeff8;
+  background-color: #ffffff;
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  border: 1px solid #bbbbbb;
+  padding: 0.5rem;
+  background-color: #ffffff;
+}
+
+h1 {
+  text-align: center;
 }
 
 .page {
@@ -13,4 +23,29 @@ body {
 
 .hero {
   width: 100%;
+}
+
+.main_nav {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.main_nav li {
+  flex: 1 1 auto;
+}
+
+.main_nav a {
+  display: block;
+  padding: 1rem;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+.mission_statement {
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
 }
