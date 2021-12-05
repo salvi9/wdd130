@@ -21,6 +21,12 @@ p {
   padding: 10px;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
 .card {
   border: transparent;
   border-radius: 25px;
@@ -31,7 +37,7 @@ p {
 
 .heart {
   color: white;
-  font-size: 40px;
+  font-size: 25px;
   position: absolute;
   top: 250px;
   left: 1075px;
@@ -41,4 +47,19 @@ p {
 }
 
 .heart:hover {
+  transform: scale(1.25);
+}
+
+.details {
+  position: absolute;
+  bottom: 230px;
+  right: 800px;
+  border-radius: 15px;
+  border: solid 1px;
+  padding: 10px 50px;
+}
+
+.details:hover {
+  background-color: black;
+  color: white;
 }
