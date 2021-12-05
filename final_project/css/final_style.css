@@ -1,10 +1,14 @@
 body {
   font-size: 20px;
-  padding: 0;
-  margin: 0;
   background-color: #daeff8;
-  /* background-color: #daeff8; */
+  margin: 0;
+  padding: 0;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.page {
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 .hero {
