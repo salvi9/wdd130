@@ -20,6 +20,18 @@ h2 {
   text-align: center;
 }
 
+label {
+  display: block;
+  padding: 10px;
+}
+
+textarea {
+  padding: 10px;
+  margin: 15px;
+}
+
+/* Class Selectors */
+
 .page {
   max-width: 960px;
   margin: 0 auto;
@@ -52,4 +64,23 @@ h2 {
   text-align: center;
   padding: 10px;
   margin: 20px;
+}
+
+.featured_products {
+  width: 275px;
+  display: inline;
+  padding: 10px;
+  margin: 10px;
+}
+
+.contact_us {
+  display: block;
+  text-align: left;
+  margin: 15px;
+}
+
+.submit {
+  display: block;
+  margin: 10px;
+  padding: 5px;
 }
