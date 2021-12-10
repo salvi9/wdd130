@@ -97,3 +97,18 @@ textarea {
 .product_grid img {
   width: 300px;
 }
+
+/* Testimonial Page*/
+.testimonial_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 100px;
+  padding: 15px;
+  margin: 15px;
+}
+
+.testimonial_grid img {
+  width: 200px;
+  height: auto;
+  border-radius: 90px;
+}
