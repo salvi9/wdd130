@@ -39,12 +39,13 @@ textarea {
 
 button {
   position: relative;
+  bottom: 10px;
 }
 
 footer {
   background-color: #ffffff;
   margin-top: -15px;
-  padding-top: 10px;
+  border-top: black solid 1px;
 }
 
 /* Class Selectors */
