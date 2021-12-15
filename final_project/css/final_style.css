@@ -88,7 +88,7 @@ footer {
   width: 500px;
   position: absolute;
   top: -220px;
-  left: 480px;
+  left: 380px;
 }
 
 .mission_statement {
@@ -147,8 +147,8 @@ footer {
 
 .testimonial_grid p {
   position: relative;
-  right: 100px;
-  bottom: 15px;
+  right: 150px;
+  bottom: px;
 }
 /* .test1 {
   grid-row: 1/3;
